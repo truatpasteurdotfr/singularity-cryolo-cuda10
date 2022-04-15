@@ -12,7 +12,8 @@ Tru <tru@pasteur.fr>
 
 ## Usage
 
-- Singularity [![Singularity build](https://github.com/truatpasteurdotfr/singularity-cryolo-cuda10/actions/workflows/singularity-publish.yml/badge.svg)](https://github.com/truatpasteurdotfr/singularity-cryolo-cuda10/actions/workflows/singularity-publish.yml)
+- Singularity 
+[![Singularity build](https://github.com/truatpasteurdotfr/singularity-cryolo-cuda10/actions/workflows/singularity-publish.yml/badge.svg)](https://github.com/truatpasteurdotfr/singularity-cryolo-cuda10/actions/workflows/singularity-publish.yml)
 ```
 singularity run -B /run --nv  oras://ghcr.io/truatpasteurdotfr/singularity-cryolo-cuda10:latest
 ```
