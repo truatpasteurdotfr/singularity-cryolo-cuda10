@@ -12,6 +12,8 @@ conda activate cryolo
 pip install 'cryolo[gpu]'
 
 %runscript
-echo "initialising conda:"
-eval "$(conda shell.bash hook)"
-conda activate cryolo
+echo 'run me with:'
+echo 'singularity shell -B /run --nv container.sif'
+echo 'To initialise cryolo environment inside conda inside the container:'
+echo 'eval "$(/opt/conda/bin/conda shell.bash hook)"'
+echo 'conda activate cryolo'
