@@ -1,4 +1,4 @@
-# building a singularity container for crYOLO using CUDA versin 10
+# building a singularity container for crYOLO using CUDA version 10
 
 Tru <tru@pasteur.fr>
 
